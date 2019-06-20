@@ -2,7 +2,6 @@ package com.xwy.myBatis.entity;
 
 public class User {
 
-	private Integer id;
 	private String userName;
 	private Integer userAge;
 
@@ -20,14 +19,6 @@ public class User {
 
 	public void setUserAge(Integer userAge) {
 		this.userAge = userAge;
-	}
-
-	public Integer getId() {
-		return id;
-	}
-
-	public void setId(Integer id) {
-		this.id = id;
 	}
 
 }
