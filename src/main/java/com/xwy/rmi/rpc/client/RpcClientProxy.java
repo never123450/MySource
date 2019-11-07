@@ -4,10 +4,16 @@ import java.lang.reflect.Proxy;
 
 public class RpcClientProxy {
 
-    public <T> T clientProxy(final Class<T> interfceClass, final String host, final int port) {
+    private IServiceDiscovery serviceDiscovery;
+
+    public RpcClientProxy(IServiceDiscovery serviceDiscovery) {
+        this.serviceDiscovery = serviceDiscovery;
+    }
+
+    public <T> T clientProxy(final Class<T> interfceClass,String version) {
 
         return (T) Proxy.newProxyInstance(interfceClass.getClassLoader(),
-                new Class[]{interfceClass}, new RemoteInvocationHanler(host, port));
+                new Class[]{interfceClass}, new RemoteInvocationHanler(serviceDiscovery,version));
     }
 
 

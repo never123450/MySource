@@ -5,12 +5,20 @@ import java.lang.reflect.Method;
 
 public class RemoteInvocationHanler implements InvocationHandler {
 
-    private String host;
-    private int port;
+//    private String host;
+//    private int port;
+//
+//    public RemoteInvocationHanler(String host, int port) {
+//        this.host = host;
+//        this.port = port;
+//    }
 
-    public RemoteInvocationHanler(String host, int port) {
-        this.host = host;
-        this.port = port;
+    private IServiceDiscovery serviceDiscovery;
+    private String version;
+
+    public RemoteInvocationHanler(IServiceDiscovery serviceDiscovery,String version) {
+        this.serviceDiscovery = serviceDiscovery;
+        this.version = version;
     }
 
     @Override
@@ -20,8 +28,17 @@ public class RemoteInvocationHanler implements InvocationHandler {
         request.setClassName(method.getDeclaringClass().getName());
         request.setMethodName(method.getName());
         request.setParameters(args);
+        request.setVersion(version);
 
-        TCPTransport tcpTransport = new TCPTransport(host,port);
+        //根据接口名称得到对应的服务地址
+        String className = request.getClassName();
+        if (version != null && !version.equals("")){
+            className = className + "-" + version;
+        }
+        String serviceAddress = serviceDiscovery.discover(className);
+
+
+        TCPTransport tcpTransport = new TCPTransport(serviceAddress);
 
         return tcpTransport.send(request);
     }

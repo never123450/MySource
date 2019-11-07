@@ -7,12 +7,18 @@ import java.net.Socket;
 
 public class TCPTransport {
 
-    private String host;
-    private int port;
+//    private String host;
+//    private int port;
+//
+//    public TCPTransport(String host, int port) {
+//        this.host = host;
+//        this.port = port;
+//    }
 
-    public TCPTransport(String host, int port) {
-        this.host = host;
-        this.port = port;
+    private String serviceAddress;
+
+    public TCPTransport(String serviceAddress) {
+        this.serviceAddress = serviceAddress;
     }
 
     private Socket newSocket() {
@@ -20,7 +26,8 @@ public class TCPTransport {
 
         Socket socket;
         try {
-            socket = new Socket(host, port);
+            String[] arrs = serviceAddress.split(":");
+            socket = new Socket(arrs[0], Integer.valueOf(arrs[1]));
             return socket;
         } catch (Exception e) {
             throw new RuntimeException("连接建立失败");
@@ -28,14 +35,14 @@ public class TCPTransport {
 
     }
 
-    public Object send(RpcRequest request){
+    public Object send(RpcRequest request) {
         Socket socket = null;
 
         try {
             socket = newSocket();
             ObjectOutputStream objectOutputStream = new ObjectOutputStream(socket.getOutputStream());
             objectOutputStream.writeObject(request);
-//            objectOutputStream.flush();
+            objectOutputStream.flush();
 
             ObjectInputStream objectInputStream = new ObjectInputStream(socket.getInputStream());
             Object result = objectInputStream.readObject();
@@ -46,8 +53,8 @@ public class TCPTransport {
             return result;
         } catch (Exception e) {
             throw new RuntimeException("发起远程调用异常：" + e);
-        }finally {
-            if (socket != null){
+        } finally {
+            if (socket != null) {
                 try {
                     socket.close();
                 } catch (IOException e) {
