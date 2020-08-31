@@ -11,6 +11,15 @@ import java.util.Map;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
+/**
+ *
+ * @description: 
+ *
+ * @author: xwy
+ *
+ * @create: 3:35 PM 2020/8/31
+**/
+
 public class RpcServer {
 
     //创建一个线程池
@@ -40,7 +49,7 @@ public class RpcServer {
             if (version != null && !version.equals("")) {
                 serviceName = serviceName + "-" + version;
             }
-            handlerMap.put(serviceName, service);
+            handlerMap.put(serviceName, service);//绑定服务接口名称对应的服务
         }
     }
 

@@ -5,6 +5,12 @@ import org.apache.curator.framework.CuratorFrameworkFactory;
 import org.apache.curator.retry.ExponentialBackoffRetry;
 import org.apache.zookeeper.CreateMode;
 
+/**
+ * @description:
+ * @author: xwy
+ * @create: 3:11 PM 2020/8/31
+ **/
+
 public class RegisterCenterImpl implements IRegisterCenter {
 
     private CuratorFramework curatorFramework;

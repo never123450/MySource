@@ -1,5 +1,14 @@
 package com.xwy.rmi.rpc.client;
 
+/**
+ *
+ * @description: 
+ *
+ * @author: xwy
+ *
+ * @create: 4:10 PM 2020/8/31
+**/
+
 public interface IServiceDiscovery {
 
     /**

@@ -84,7 +84,7 @@ public class DistributedLock implements Lock, Watcher {
             String firstNode = sortedSet.first();//获得当前所有子节点中最小的节点
             SortedSet<String> lessThanMe = (TreeSet<String>) sortedSet.headSet(CURRENT_LOCK);
             if (CURRENT_LOCK.equals(firstNode)) {
-                //通过当前的节点和子节点中最小的节点进行比较，如果相等，表示蝴蝶锁
+                //通过当前的节点和子节点中最小的节点进行比较，如果相等，表示获得锁
                 return true;
             }
             if (!lessThanMe.isEmpty()) {

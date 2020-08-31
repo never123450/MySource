@@ -5,6 +5,12 @@ import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.net.Socket;
 
+/**
+ * @description:
+ * @author: xwy
+ * @create: 4:25 PM 2020/8/31
+ **/
+
 public class TCPTransport {
 
 //    private String host;

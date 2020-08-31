@@ -1,5 +1,14 @@
 package com.xwy.rmi.rpc.zk;
 
+/**
+ *
+ * @description:
+ *
+ * @author: xwy
+ *
+ * @create: 3:11 PM 2020/8/31
+**/
+
 public interface IRegisterCenter {
 
     /**

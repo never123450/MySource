@@ -13,6 +13,12 @@ import org.apache.curator.retry.ExponentialBackoffRetry;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * @description:
+ * @author: xwy
+ * @create: 4:10 PM 2020/8/31
+ **/
+
 public class ServiceDiscoveryImpl implements IServiceDiscovery {
 
 

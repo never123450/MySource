@@ -10,6 +10,15 @@ import java.net.Socket;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ *
+ * @description: 
+ *
+ * @author: xwy
+ *
+ * @create: 3:55 PM 2020/8/31
+**/
+
 public class ProcessorHandler implements Runnable {
 
     private Socket socket;
