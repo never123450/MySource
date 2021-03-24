@@ -1,160 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c10bbc85-387c-457b-af6d-22b65625ba55" name="Default" comment="提交之前的">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_curator_curator_client_4_0_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_curator_curator_framework_4_0_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_curator_curator_recipes_4_0_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/xwy/rmi/rpc/anno/RpcAnnotation.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/xwy/rmi/rpc/client/IServiceDiscovery.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/xwy/rmi/rpc/client/ServiceDiscoveryImpl.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/xwy/rmi/rpc/client/loadbalance/AbstractLoadBalance.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/xwy/rmi/rpc/client/loadbalance/LoadBalance.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/xwy/rmi/rpc/client/loadbalance/RandomLoadBalance.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/xwy/rmi/rpc/server/HelloImpl2.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/xwy/rmi/rpc/server/HelloImplNoVersion.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/xwy/rmi/rpc/server/HelloImplNoVersion2.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/xwy/rmi/rpc/server/LBServerDemo.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/xwy/rmi/rpc/server/LBServerDemo2.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/xwy/rmi/rpc/zk/IRegisterCenter.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/xwy/rmi/rpc/zk/RegisterCenterImpl.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/xwy/rmi/rpc/zk/ZKConfig.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/xwy/zkLock3/CuratorDemo.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/xwy/zkLock3/DistributedLock.java" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Mysource.iml" afterPath="$PROJECT_DIR$/Mysource.iml" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xwy/rmi/rpc/client/ClientDemo.java" afterPath="$PROJECT_DIR$/src/main/java/com/xwy/rmi/rpc/client/ClientDemo.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xwy/rmi/rpc/client/RemoteInvocationHanler.java" afterPath="$PROJECT_DIR$/src/main/java/com/xwy/rmi/rpc/client/RemoteInvocationHanler.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xwy/rmi/rpc/client/RpcClientProxy.java" afterPath="$PROJECT_DIR$/src/main/java/com/xwy/rmi/rpc/client/RpcClientProxy.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xwy/rmi/rpc/client/RpcRequest.java" afterPath="$PROJECT_DIR$/src/main/java/com/xwy/rmi/rpc/client/RpcRequest.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xwy/rmi/rpc/client/TCPTransport.java" afterPath="$PROJECT_DIR$/src/main/java/com/xwy/rmi/rpc/client/TCPTransport.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xwy/rmi/rpc/server/Hello.java" afterPath="$PROJECT_DIR$/src/main/java/com/xwy/rmi/rpc/server/HelloImpl.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xwy/rmi/rpc/server/ProcessorHandler.java" afterPath="$PROJECT_DIR$/src/main/java/com/xwy/rmi/rpc/server/ProcessorHandler.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xwy/rmi/rpc/server/RpcServer.java" afterPath="$PROJECT_DIR$/src/main/java/com/xwy/rmi/rpc/server/RpcServer.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xwy/rmi/rpc/server/ServerDemo.java" afterPath="$PROJECT_DIR$/src/main/java/com/xwy/rmi/rpc/server/ServerDemo.java" />
+    <list default="true" id="c10bbc85-387c-457b-af6d-22b65625ba55" name="Default" comment="测试">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xwy/MySpringIOC/annotation/XwyAutowired.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xwy/MySpringIOC/annotation/XwyController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xwy/MySpringIOC/annotation/XwyRequestMapping.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xwy/MySpringIOC/annotation/XwyRequestParam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xwy/MySpringIOC/annotation/XwyService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xwy/MySpringIOC/aop/XwyAopConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xwy/MySpringIOC/aop/XwyAopProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xwy/MySpringIOC/aop/XwyAopProxyUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xwy/MySpringIOC/beans/XwyBeanDefinition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xwy/MySpringIOC/beans/XwyBeanPostProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xwy/MySpringIOC/beans/XwyBeanWrapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xwy/MySpringIOC/context/XwyAbstractApplicationContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xwy/MySpringIOC/context/XwyApplicationContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xwy/MySpringIOC/context/XwyApplicationContextAware.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xwy/MySpringIOC/context/XwyDefaultListableBeanFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xwy/MySpringIOC/context/support/XwyBeanDefinitionReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xwy/MySpringIOC/core/XwyBeanFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xwy/MySpringIOC/core/XwyFactoryBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xwy/MySpringIOC/webmvc/XwyHandlerAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xwy/MySpringIOC/webmvc/XwyHandlerMapping.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xwy/MySpringIOC/webmvc/XwyModelAndView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xwy/MySpringIOC/webmvc/XwyViewResolver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xwy/MySpringIOC/webmvc/servlet/XwyDispatcherServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xwy/luban/proxy/LubanDao(1).java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xwy/luban/proxy/LubanDao.java" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/target/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
+    <list id="7a6f8132-8e84-409a-9ef2-82f2fb8bef41" name="ignore" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mysource.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Mysource.iml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="LBServerDemo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/xwy/rmi/rpc/server/LBServerDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="9" column="66" lean-forward="false" selection-start-line="9" selection-start-column="66" selection-end-line="9" selection-end-column="66" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HelloImplNoVersion.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/xwy/rmi/rpc/server/HelloImplNoVersion.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="8" column="27" lean-forward="false" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LBServerDemo2.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/xwy/rmi/rpc/server/LBServerDemo2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="179">
-              <caret line="16" column="29" lean-forward="false" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ClientDemo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/xwy/rmi/rpc/client/ClientDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="15" column="48" lean-forward="false" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RpcClientProxy.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/xwy/rmi/rpc/client/RpcClientProxy.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="15" column="60" lean-forward="true" selection-start-line="15" selection-start-column="60" selection-end-line="15" selection-end-column="60" />
-              <folding>
-                <element signature="e#208#209#0" expanded="true" />
-                <element signature="e#264#265#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RemoteInvocationHanler.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/xwy/rmi/rpc/client/RemoteInvocationHanler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="42" column="29" lean-forward="true" selection-start-line="42" selection-start-column="29" selection-end-line="42" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TCPTransport.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/xwy/rmi/rpc/client/TCPTransport.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="9" column="26" lean-forward="true" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
-              <folding>
-                <element signature="e#437#438#0" expanded="true" />
-                <element signature="e#489#490#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RandomLoadBalance.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/xwy/rmi/rpc/client/loadbalance/RandomLoadBalance.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ServiceDiscoveryImpl.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/xwy/rmi/rpc/client/ServiceDiscoveryImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="646">
-              <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AbstractLoadBalance.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/xwy/rmi/rpc/client/loadbalance/AbstractLoadBalance.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -187,6 +69,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -261,16 +151,53 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="LineStatusTrackerManager">
+    <file path="$PROJECT_DIR$/.idea/workspace.xml">
+      <ranges>
+        <range start1="2" end1="2" start2="2" end2="5" changelist="7a6f8132-8e84-409a-9ef2-82f2fb8bef41" />
+        <range start1="3" end1="36" start2="6" end2="36" changelist="c10bbc85-387c-457b-af6d-22b65625ba55" />
+        <range start1="37" end1="41" start2="37" end2="37" changelist="7a6f8132-8e84-409a-9ef2-82f2fb8bef41" />
+        <range start1="45" end1="157" start2="41" end2="41" changelist="7a6f8132-8e84-409a-9ef2-82f2fb8bef41" />
+        <range start1="189" end1="189" start2="73" end2="81" changelist="7a6f8132-8e84-409a-9ef2-82f2fb8bef41" />
+        <range start1="268" end1="273" start2="160" end2="160" changelist="7a6f8132-8e84-409a-9ef2-82f2fb8bef41" />
+        <range start1="295" end1="295" start2="182" end2="183" changelist="7a6f8132-8e84-409a-9ef2-82f2fb8bef41" />
+        <range start1="561" end1="561" start2="449" end2="453" changelist="7a6f8132-8e84-409a-9ef2-82f2fb8bef41" />
+        <range start1="563" end1="565" start2="455" end2="457" changelist="7a6f8132-8e84-409a-9ef2-82f2fb8bef41" />
+        <range start1="567" end1="568" start2="459" end2="462" changelist="7a6f8132-8e84-409a-9ef2-82f2fb8bef41" />
+        <range start1="570" end1="575" start2="464" end2="464" changelist="7a6f8132-8e84-409a-9ef2-82f2fb8bef41" />
+        <range start1="576" end1="576" start2="465" end2="466" changelist="7a6f8132-8e84-409a-9ef2-82f2fb8bef41" />
+        <range start1="580" end1="581" start2="470" end2="470" changelist="7a6f8132-8e84-409a-9ef2-82f2fb8bef41" />
+        <range start1="582" end1="594" start2="471" end2="476" changelist="7a6f8132-8e84-409a-9ef2-82f2fb8bef41" />
+        <range start1="746" end1="749" start2="628" end2="629" changelist="7a6f8132-8e84-409a-9ef2-82f2fb8bef41" />
+        <range start1="755" end1="755" start2="635" end2="636" changelist="c10bbc85-387c-457b-af6d-22b65625ba55" />
+        <range start1="778" end1="778" start2="659" end2="660" changelist="c10bbc85-387c-457b-af6d-22b65625ba55" />
+        <range start1="793" end1="794" start2="675" end2="683" changelist="7a6f8132-8e84-409a-9ef2-82f2fb8bef41" />
+        <range start1="869" end1="870" start2="758" end2="759" changelist="7a6f8132-8e84-409a-9ef2-82f2fb8bef41" />
+        <range start1="886" end1="902" start2="775" end2="776" changelist="7a6f8132-8e84-409a-9ef2-82f2fb8bef41" />
+        <range start1="906" end1="909" start2="780" end2="781" changelist="7a6f8132-8e84-409a-9ef2-82f2fb8bef41" />
+        <range start1="913" end1="914" start2="785" end2="787" changelist="7a6f8132-8e84-409a-9ef2-82f2fb8bef41" />
+        <range start1="921" end1="922" start2="794" end2="794" changelist="7a6f8132-8e84-409a-9ef2-82f2fb8bef41" />
+        <range start1="927" end1="928" start2="799" end2="799" changelist="7a6f8132-8e84-409a-9ef2-82f2fb8bef41" />
+        <range start1="933" end1="934" start2="804" end2="804" changelist="7a6f8132-8e84-409a-9ef2-82f2fb8bef41" />
+        <range start1="939" end1="940" start2="809" end2="809" changelist="7a6f8132-8e84-409a-9ef2-82f2fb8bef41" />
+        <range start1="945" end1="946" start2="814" end2="814" changelist="7a6f8132-8e84-409a-9ef2-82f2fb8bef41" />
+        <range start1="951" end1="952" start2="819" end2="819" changelist="7a6f8132-8e84-409a-9ef2-82f2fb8bef41" />
+        <range start1="957" end1="958" start2="824" end2="824" changelist="7a6f8132-8e84-409a-9ef2-82f2fb8bef41" />
+        <range start1="963" end1="964" start2="829" end2="829" changelist="7a6f8132-8e84-409a-9ef2-82f2fb8bef41" />
+        <range start1="969" end1="970" start2="834" end2="834" changelist="7a6f8132-8e84-409a-9ef2-82f2fb8bef41" />
+        <range start1="975" end1="976" start2="839" end2="839" changelist="7a6f8132-8e84-409a-9ef2-82f2fb8bef41" />
+        <range start1="981" end1="982" start2="844" end2="844" changelist="7a6f8132-8e84-409a-9ef2-82f2fb8bef41" />
+        <range start1="987" end1="988" start2="849" end2="849" changelist="7a6f8132-8e84-409a-9ef2-82f2fb8bef41" />
+        <range start1="991" end1="992" start2="852" end2="852" changelist="7a6f8132-8e84-409a-9ef2-82f2fb8bef41" />
+        <range start1="993" end1="994" start2="853" end2="853" changelist="7a6f8132-8e84-409a-9ef2-82f2fb8bef41" />
+      </ranges>
+    </file>
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
         <option name="localRepository" value="$MAVEN_REPOSITORY$" />
       </MavenGeneralSettings>
-    </option>
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
     </option>
   </component>
   <component name="MavenProjectNavigator">
@@ -293,6 +220,7 @@
     <option name="width" value="1320" />
     <option name="height" value="833" />
   </component>
+  <component name="ProjectId" id="1qCYZjBIZwDjqh0s8mJ3CucviPB" />
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
       <profile-state>
@@ -560,38 +488,32 @@
       <pane id="Scope" />
     </panes>
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
-    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SearchEverywhereHistoryKey" value="loadba&#9;FILE&#9;file:///Users/xuwenyan/Downloads/study/Mysource/src/main/java/com/xwy/rmi/rpc/client/loadbalance/RandomLoadBalance.java&#10;HelloImplNoVersion&#9;FILE&#9;file:///Users/xuwenyan/Downloads/study/Mysource/src/main/java/com/xwy/rmi/rpc/server/HelloImplNoVersion.java&#10;serverd&#9;FILE&#9;file:///Users/xuwenyan/Downloads/study/Mysource/src/main/java/com/xwy/rmi/rpc/server/LBServerDemo.java&#10;cli&#9;FILE&#9;file:///Users/xuwenyan/Downloads/study/Mysource/src/main/java/com/xwy/rmi/rpc/client/ClientDemo.java&#10;proc&#9;FILE&#9;file:///Users/xuwenyan/Downloads/study/Mysource/src/main/java/com/xwy/rmi/rpc/server/ProcessorHandler.java&#10;load&#9;FILE&#9;file:///Users/xuwenyan/Downloads/study/Mysource/src/main/java/com/xwy/rmi/rpc/client/loadbalance/RandomLoadBalance.java&#10;rpcre&#9;FILE&#9;file:///Users/xuwenyan/Downloads/study/Mysource/src/main/java/com/xwy/rmi/rpc/client/RpcRequest.java&#10;pr&#9;FILE&#9;file:///Users/xuwenyan/Downloads/study/Mysource/src/main/java/com/xwy/rmi/rpc/server/ProcessorHandler.java&#10;clientde&#9;FILE&#9;file:///Users/xuwenyan/Downloads/study/Mysource/src/main/java/com/xwy/rmi/rpc/client/ClientDemo.java&#10;rpcc&#9;FILE&#9;file:///Users/xuwenyan/Downloads/study/Mysource/src/main/java/com/xwy/rmi/rpc/client/RpcClientProxy.java&#10;serverde&#9;FILE&#9;file:///Users/xuwenyan/Downloads/study/Mysource/src/main/java/com/xwy/rmi/rpc/server/ServerDemo.java&#10;server&#9;FILE&#9;file:///Users/xuwenyan/Downloads/study/Mysource/src/main/java/com/xwy/rmi/rpc/server/RpcServer.java&#10;he&#9;FILE&#9;file:///Users/xuwenyan/Downloads/study/Mysource/src/main/java/com/xwy/rmi/rpc/server/HelloImpl.java&#10;ServiceDiscovery&#9;FILE&#9;file:///Users/xuwenyan/Downloads/study/Mysource/src/main/java/com/xwy/rmi/rpc/client/ServiceDiscoveryImpl.java&#10;Rpccl&#9;FILE&#9;file:///Users/xuwenyan/Downloads/study/Mysource/src/main/java/com/xwy/rmi/rpc/client/RpcClientProxy.java&#10;processo&#9;FILE&#9;file:///Users/xuwenyan/Downloads/study/Mysource/src/main/java/com/xwy/rmi/rpc/server/ProcessorHandler.java&#10;hell&#9;FILE&#9;file:///Users/xuwenyan/Downloads/study/Mysource/src/main/java/com/xwy/rmi/rpc/server/HelloImpl.java&#10;rpca&#9;FILE&#9;file:///Users/xuwenyan/Downloads/study/Mysource/src/main/java/com/xwy/rmi/rpc/anno/RpcAnnotation.java&#10;ser&#9;FILE&#9;file:///Users/xuwenyan/Downloads/study/Mysource/src/main/java/com/xwy/rmi/rpc/client/ServiceDiscoveryImpl.java&#10;DataSource1Config &#9;PSI&#9;JAVA://com.xwy.multipleDataSource.dataSource.DataSource1Config&#10;ExtDispatcherServlet&#9;FILE&#9;file:///Users/xuwenyan/Downloads/study/Mysource/src/main/java/com/xwy/springMVC/ext/ExtDispatcherServlet.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="SearchEverywhereHistoryKey" value="loadba&#9;FILE&#9;file:///Users/xuwenyan/Downloads/study/Mysource/src/main/java/com/xwy/rmi/rpc/client/loadbalance/RandomLoadBalance.java&#10;HelloImplNoVersion&#9;FILE&#9;file:///Users/xuwenyan/Downloads/study/Mysource/src/main/java/com/xwy/rmi/rpc/server/HelloImplNoVersion.java&#10;serverd&#9;FILE&#9;file:///Users/xuwenyan/Downloads/study/Mysource/src/main/java/com/xwy/rmi/rpc/server/LBServerDemo.java&#10;cli&#9;FILE&#9;file:///Users/xuwenyan/Downloads/study/Mysource/src/main/java/com/xwy/rmi/rpc/client/ClientDemo.java&#10;proc&#9;FILE&#9;file:///Users/xuwenyan/Downloads/study/Mysource/src/main/java/com/xwy/rmi/rpc/server/ProcessorHandler.java&#10;load&#9;FILE&#9;file:///Users/xuwenyan/Downloads/study/Mysource/src/main/java/com/xwy/rmi/rpc/client/loadbalance/RandomLoadBalance.java&#10;rpcre&#9;FILE&#9;file:///Users/xuwenyan/Downloads/study/Mysource/src/main/java/com/xwy/rmi/rpc/client/RpcRequest.java&#10;pr&#9;FILE&#9;file:///Users/xuwenyan/Downloads/study/Mysource/src/main/java/com/xwy/rmi/rpc/server/ProcessorHandler.java&#10;clientde&#9;FILE&#9;file:///Users/xuwenyan/Downloads/study/Mysource/src/main/java/com/xwy/rmi/rpc/client/ClientDemo.java&#10;rpcc&#9;FILE&#9;file:///Users/xuwenyan/Downloads/study/Mysource/src/main/java/com/xwy/rmi/rpc/client/RpcClientProxy.java&#10;serverde&#9;FILE&#9;file:///Users/xuwenyan/Downloads/study/Mysource/src/main/java/com/xwy/rmi/rpc/server/ServerDemo.java&#10;server&#9;FILE&#9;file:///Users/xuwenyan/Downloads/study/Mysource/src/main/java/com/xwy/rmi/rpc/server/RpcServer.java&#10;he&#9;FILE&#9;file:///Users/xuwenyan/Downloads/study/Mysource/src/main/java/com/xwy/rmi/rpc/server/HelloImpl.java&#10;ServiceDiscovery&#9;FILE&#9;file:///Users/xuwenyan/Downloads/study/Mysource/src/main/java/com/xwy/rmi/rpc/client/ServiceDiscoveryImpl.java&#10;Rpccl&#9;FILE&#9;file:///Users/xuwenyan/Downloads/study/Mysource/src/main/java/com/xwy/rmi/rpc/client/RpcClientProxy.java&#10;processo&#9;FILE&#9;file:///Users/xuwenyan/Downloads/study/Mysource/src/main/java/com/xwy/rmi/rpc/server/ProcessorHandler.java&#10;hell&#9;FILE&#9;file:///Users/xuwenyan/Downloads/study/Mysource/src/main/java/com/xwy/rmi/rpc/server/HelloImpl.java&#10;rpca&#9;FILE&#9;file:///Users/xuwenyan/Downloads/study/Mysource/src/main/java/com/xwy/rmi/rpc/anno/RpcAnnotation.java&#10;ser&#9;FILE&#9;file:///Users/xuwenyan/Downloads/study/Mysource/src/main/java/com/xwy/rmi/rpc/client/ServiceDiscoveryImpl.java&#10;DataSource1Config &#9;PSI&#9;JAVA://com.xwy.multipleDataSource.dataSource.DataSource1Config&#10;ExtDispatcherServlet&#9;FILE&#9;file:///Users/xuwenyan/Downloads/study/Mysource/src/main/java/com/xwy/springMVC/ext/ExtDispatcherServlet.java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/xwy/MySpring" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\study\code\MySource\src\main\java\com\xwy\MySpring" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/xwy/zkMaster" />
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/xwy/redisTokenSession/session" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/xwy/redisTokenSession/controller" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.xwy.rmi.rpc.server" />
       <recent name="com.xwy.SpringXmlParse.annotation" />
       <recent name="com.xwy.SpringXmlParse.utils" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/java/com/xwy/zkMaster" />
-      <recent name="$PROJECT_DIR$/src/main/resources" />
-      <recent name="$PROJECT_DIR$/src/main/java/com/xwy/redisTokenSession/session" />
-      <recent name="$PROJECT_DIR$/src/main/java/com/xwy/redisTokenSession/controller" />
-      <recent name="$PROJECT_DIR$/src/main/java/com/xwy/redisTokenSession" />
-    </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager" selected="Application.ClientDemo">
     <configuration default="true" type="Applet" factoryName="Applet">
@@ -744,15 +666,14 @@
       </list>
     </recent_temporary>
   </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
-  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration>$USER_HOME$/.subversion</configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="c10bbc85-387c-457b-af6d-22b65625ba55" name="Default" comment="" />
+      <changelist id="7a6f8132-8e84-409a-9ef2-82f2fb8bef41" name="ignore" comment="" />
       <created>1560825141123</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -776,6 +697,7 @@
       <workItem from="1571928402247" duration="20000" />
       <workItem from="1572787667854" duration="35000" />
       <workItem from="1573005947932" duration="29872000" />
+      <workItem from="1616585103686" duration="3852000" />
     </task>
     <task id="LOCAL-00001" summary="提交之前的">
       <created>1573024707141</created>
