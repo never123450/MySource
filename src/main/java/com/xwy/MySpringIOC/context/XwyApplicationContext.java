@@ -107,7 +107,7 @@ public class XwyApplicationContext extends XwyDefaultListableBeanFactory impleme
             field.setAccessible(true);
 
             try {
-                System.out.println("=======================" +instance +"," + autowiredBeanName + "," + this.beanWrapperMap.get(autowiredBeanName));
+                System.out.println("=======================" + instance + "," + autowiredBeanName + "," + this.beanWrapperMap.get(autowiredBeanName));
                 field.set(instance, this.beanWrapperMap.get(autowiredBeanName).getWrappedInstance());
             } catch (IllegalAccessException e) {
                 e.printStackTrace();

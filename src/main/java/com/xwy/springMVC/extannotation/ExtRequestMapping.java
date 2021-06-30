@@ -6,11 +6,14 @@ import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
 /**
- * 自定义RequestMapping 作者: 每特教育-余胜军<br>
- * 联系方式:QQ644064779|WWW.itmayiedu.com<br>
+ * @param
+ * @author xwy
+ * @Description 自定义RequestMapping
+ * @date 2021/3/24
+ * @return
  */
-@Target({ ElementType.METHOD, ElementType.TYPE })
+@Target({ElementType.METHOD, ElementType.TYPE})
 @Retention(RetentionPolicy.RUNTIME)
 public @interface ExtRequestMapping {
-	String value() default "";
+    String value() default "";
 }

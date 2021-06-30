@@ -1,32 +1,99 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="c10bbc85-387c-457b-af6d-22b65625ba55" name="Default" comment="测试">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xwy/MySpringIOC/annotation/XwyAutowired.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xwy/MySpringIOC/annotation/XwyController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xwy/MySpringIOC/annotation/XwyRequestMapping.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xwy/MySpringIOC/annotation/XwyRequestParam.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xwy/MySpringIOC/annotation/XwyService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xwy/MySpringIOC/aop/XwyAopConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xwy/MySpringIOC/aop/XwyAopProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xwy/MySpringIOC/aop/XwyAopProxyUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xwy/MySpringIOC/beans/XwyBeanDefinition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xwy/MySpringIOC/beans/XwyBeanPostProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xwy/MySpringIOC/beans/XwyBeanWrapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xwy/MySpringIOC/context/XwyAbstractApplicationContext.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xwy/MySpringIOC/context/XwyApplicationContext.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xwy/MySpringIOC/context/XwyApplicationContextAware.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xwy/MySpringIOC/context/XwyDefaultListableBeanFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xwy/MySpringIOC/context/support/XwyBeanDefinitionReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xwy/MySpringIOC/core/XwyBeanFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xwy/MySpringIOC/core/XwyFactoryBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xwy/MySpringIOC/webmvc/XwyHandlerAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xwy/MySpringIOC/webmvc/XwyHandlerMapping.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xwy/MySpringIOC/webmvc/XwyModelAndView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xwy/MySpringIOC/webmvc/XwyViewResolver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xwy/MySpringIOC/webmvc/servlet/XwyDispatcherServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xwy/luban/proxy/LubanDao(1).java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xwy/luban/proxy/LubanDao.java" afterDir="false" />
+    <list default="true" id="c10bbc85-387c-457b-af6d-22b65625ba55" name="Default" comment="实现 spring IOC">
+      <change afterPath="$PROJECT_DIR$/.gradle/6.7/fileChanges/last-build.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/6.7/fileHashes/fileHashes.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/6.7/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/configuration-cache/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/vcs-1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Java_EE_6_Java_EE_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_58_sec10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_istack_istack_commons_runtime_3_0_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_xml_fastinfoset_FastInfoset_1_2_15.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_3_4_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_persistence_jakarta_persistence_api_2_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_transaction_jakarta_transaction_api_1_3_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_dom4j_dom4j_2_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_jaxb_runtime_2_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_txw2_2_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_1_2_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_5_4_29_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_27_0_GA.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jandex_2_2_3_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jvnet_staxex_stax_ex_1_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_jpa_2_4_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_4_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_jpa_2_4_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aspects_5_3_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.ejb.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.jms.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.persistence.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.resource.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.servlet.jsp.jstl.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.transaction.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xwy/MySpringAOP/aspect/AnnotaionAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xwy/MySpringAOP/aspect/ArgsAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xwy/MySpringAOP/aspect/XmlAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xwy/MySpringAOP/service/MemberService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xwy/orm/demo/dao/MemberDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xwy/orm/demo/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xwy/orm/demo/model/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xwy/orm/demo/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xwy/orm/framework/BaseDaoSupport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xwy/orm/framework/ClassMappings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xwy/orm/framework/EntityOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xwy/orm/framework/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xwy/orm/framework/QueryRule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xwy/orm/framework/QueryRuleSqlBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xwy/orm/javax/core/common/Page.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xwy/orm/javax/core/common/ResultMsg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xwy/orm/javax/core/common/jdbc/datasource/DynamicDataSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xwy/orm/javax/core/common/jdbc/datasource/DynamicDataSourceEntry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xwy/orm/javax/core/common/utils/BeanUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xwy/orm/javax/core/common/utils/DataUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xwy/orm/javax/core/common/utils/GenericsUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xwy/orm/javax/core/common/utils/ObjectUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xwy/orm/javax/core/common/utils/StringUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xwy/rmi/rpc/MyRpc/client/ClientDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xwy/rmi/rpc/MyRpc/client/IHello.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xwy/rmi/rpc/MyRpc/client/RemoteInvocationHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xwy/rmi/rpc/MyRpc/client/RpcClientProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xwy/rmi/rpc/MyRpc/client/RpcRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xwy/rmi/rpc/MyRpc/client/TCPTransport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xwy/rmi/rpc/MyRpc/server/HelloImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xwy/rmi/rpc/MyRpc/server/ProcessorHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xwy/rmi/rpc/MyRpc/server/RpcServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xwy/rmi/rpc/MyRpc/server/ServerDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/layouts/text.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mySpring/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/orm/application-aop.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/orm/application-beans.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/orm/application-common.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/orm/application-context.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/orm/application-db.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/orm/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/orm/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/JdbcTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/OrmTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_jdbc_8_0_32.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_1_3_3_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_4_4.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_0_4_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_4_6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xwy/MySpringIOC/context/XwyApplicationContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xwy/MySpringIOC/context/XwyApplicationContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xwy/MySpringIOC/webmvc/servlet/XwyDispatcherServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xwy/MySpringIOC/webmvc/servlet/XwyDispatcherServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xwy/springMVC/extannotation/ExtRequestMapping.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xwy/springMVC/extannotation/ExtRequestMapping.java" afterDir="false" />
     </list>
     <list id="7a6f8132-8e84-409a-9ef2-82f2fb8bef41" name="ignore" comment="">
       <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
@@ -45,6 +112,7 @@
         <option value="AnnotationType" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -150,48 +218,6 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
-  </component>
-  <component name="LineStatusTrackerManager">
-    <file path="$PROJECT_DIR$/.idea/workspace.xml">
-      <ranges>
-        <range start1="2" end1="2" start2="2" end2="5" changelist="7a6f8132-8e84-409a-9ef2-82f2fb8bef41" />
-        <range start1="3" end1="36" start2="6" end2="36" changelist="c10bbc85-387c-457b-af6d-22b65625ba55" />
-        <range start1="37" end1="41" start2="37" end2="37" changelist="7a6f8132-8e84-409a-9ef2-82f2fb8bef41" />
-        <range start1="45" end1="157" start2="41" end2="41" changelist="7a6f8132-8e84-409a-9ef2-82f2fb8bef41" />
-        <range start1="189" end1="189" start2="73" end2="81" changelist="7a6f8132-8e84-409a-9ef2-82f2fb8bef41" />
-        <range start1="268" end1="273" start2="160" end2="160" changelist="7a6f8132-8e84-409a-9ef2-82f2fb8bef41" />
-        <range start1="295" end1="295" start2="182" end2="183" changelist="7a6f8132-8e84-409a-9ef2-82f2fb8bef41" />
-        <range start1="561" end1="561" start2="449" end2="453" changelist="7a6f8132-8e84-409a-9ef2-82f2fb8bef41" />
-        <range start1="563" end1="565" start2="455" end2="457" changelist="7a6f8132-8e84-409a-9ef2-82f2fb8bef41" />
-        <range start1="567" end1="568" start2="459" end2="462" changelist="7a6f8132-8e84-409a-9ef2-82f2fb8bef41" />
-        <range start1="570" end1="575" start2="464" end2="464" changelist="7a6f8132-8e84-409a-9ef2-82f2fb8bef41" />
-        <range start1="576" end1="576" start2="465" end2="466" changelist="7a6f8132-8e84-409a-9ef2-82f2fb8bef41" />
-        <range start1="580" end1="581" start2="470" end2="470" changelist="7a6f8132-8e84-409a-9ef2-82f2fb8bef41" />
-        <range start1="582" end1="594" start2="471" end2="476" changelist="7a6f8132-8e84-409a-9ef2-82f2fb8bef41" />
-        <range start1="746" end1="749" start2="628" end2="629" changelist="7a6f8132-8e84-409a-9ef2-82f2fb8bef41" />
-        <range start1="755" end1="755" start2="635" end2="636" changelist="c10bbc85-387c-457b-af6d-22b65625ba55" />
-        <range start1="778" end1="778" start2="659" end2="660" changelist="c10bbc85-387c-457b-af6d-22b65625ba55" />
-        <range start1="793" end1="794" start2="675" end2="683" changelist="7a6f8132-8e84-409a-9ef2-82f2fb8bef41" />
-        <range start1="869" end1="870" start2="758" end2="759" changelist="7a6f8132-8e84-409a-9ef2-82f2fb8bef41" />
-        <range start1="886" end1="902" start2="775" end2="776" changelist="7a6f8132-8e84-409a-9ef2-82f2fb8bef41" />
-        <range start1="906" end1="909" start2="780" end2="781" changelist="7a6f8132-8e84-409a-9ef2-82f2fb8bef41" />
-        <range start1="913" end1="914" start2="785" end2="787" changelist="7a6f8132-8e84-409a-9ef2-82f2fb8bef41" />
-        <range start1="921" end1="922" start2="794" end2="794" changelist="7a6f8132-8e84-409a-9ef2-82f2fb8bef41" />
-        <range start1="927" end1="928" start2="799" end2="799" changelist="7a6f8132-8e84-409a-9ef2-82f2fb8bef41" />
-        <range start1="933" end1="934" start2="804" end2="804" changelist="7a6f8132-8e84-409a-9ef2-82f2fb8bef41" />
-        <range start1="939" end1="940" start2="809" end2="809" changelist="7a6f8132-8e84-409a-9ef2-82f2fb8bef41" />
-        <range start1="945" end1="946" start2="814" end2="814" changelist="7a6f8132-8e84-409a-9ef2-82f2fb8bef41" />
-        <range start1="951" end1="952" start2="819" end2="819" changelist="7a6f8132-8e84-409a-9ef2-82f2fb8bef41" />
-        <range start1="957" end1="958" start2="824" end2="824" changelist="7a6f8132-8e84-409a-9ef2-82f2fb8bef41" />
-        <range start1="963" end1="964" start2="829" end2="829" changelist="7a6f8132-8e84-409a-9ef2-82f2fb8bef41" />
-        <range start1="969" end1="970" start2="834" end2="834" changelist="7a6f8132-8e84-409a-9ef2-82f2fb8bef41" />
-        <range start1="975" end1="976" start2="839" end2="839" changelist="7a6f8132-8e84-409a-9ef2-82f2fb8bef41" />
-        <range start1="981" end1="982" start2="844" end2="844" changelist="7a6f8132-8e84-409a-9ef2-82f2fb8bef41" />
-        <range start1="987" end1="988" start2="849" end2="849" changelist="7a6f8132-8e84-409a-9ef2-82f2fb8bef41" />
-        <range start1="991" end1="992" start2="852" end2="852" changelist="7a6f8132-8e84-409a-9ef2-82f2fb8bef41" />
-        <range start1="993" end1="994" start2="853" end2="853" changelist="7a6f8132-8e84-409a-9ef2-82f2fb8bef41" />
-      </ranges>
-    </file>
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -493,21 +519,26 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SearchEverywhereHistoryKey" value="loadba&#9;FILE&#9;file:///Users/xuwenyan/Downloads/study/Mysource/src/main/java/com/xwy/rmi/rpc/client/loadbalance/RandomLoadBalance.java&#10;HelloImplNoVersion&#9;FILE&#9;file:///Users/xuwenyan/Downloads/study/Mysource/src/main/java/com/xwy/rmi/rpc/server/HelloImplNoVersion.java&#10;serverd&#9;FILE&#9;file:///Users/xuwenyan/Downloads/study/Mysource/src/main/java/com/xwy/rmi/rpc/server/LBServerDemo.java&#10;cli&#9;FILE&#9;file:///Users/xuwenyan/Downloads/study/Mysource/src/main/java/com/xwy/rmi/rpc/client/ClientDemo.java&#10;proc&#9;FILE&#9;file:///Users/xuwenyan/Downloads/study/Mysource/src/main/java/com/xwy/rmi/rpc/server/ProcessorHandler.java&#10;load&#9;FILE&#9;file:///Users/xuwenyan/Downloads/study/Mysource/src/main/java/com/xwy/rmi/rpc/client/loadbalance/RandomLoadBalance.java&#10;rpcre&#9;FILE&#9;file:///Users/xuwenyan/Downloads/study/Mysource/src/main/java/com/xwy/rmi/rpc/client/RpcRequest.java&#10;pr&#9;FILE&#9;file:///Users/xuwenyan/Downloads/study/Mysource/src/main/java/com/xwy/rmi/rpc/server/ProcessorHandler.java&#10;clientde&#9;FILE&#9;file:///Users/xuwenyan/Downloads/study/Mysource/src/main/java/com/xwy/rmi/rpc/client/ClientDemo.java&#10;rpcc&#9;FILE&#9;file:///Users/xuwenyan/Downloads/study/Mysource/src/main/java/com/xwy/rmi/rpc/client/RpcClientProxy.java&#10;serverde&#9;FILE&#9;file:///Users/xuwenyan/Downloads/study/Mysource/src/main/java/com/xwy/rmi/rpc/server/ServerDemo.java&#10;server&#9;FILE&#9;file:///Users/xuwenyan/Downloads/study/Mysource/src/main/java/com/xwy/rmi/rpc/server/RpcServer.java&#10;he&#9;FILE&#9;file:///Users/xuwenyan/Downloads/study/Mysource/src/main/java/com/xwy/rmi/rpc/server/HelloImpl.java&#10;ServiceDiscovery&#9;FILE&#9;file:///Users/xuwenyan/Downloads/study/Mysource/src/main/java/com/xwy/rmi/rpc/client/ServiceDiscoveryImpl.java&#10;Rpccl&#9;FILE&#9;file:///Users/xuwenyan/Downloads/study/Mysource/src/main/java/com/xwy/rmi/rpc/client/RpcClientProxy.java&#10;processo&#9;FILE&#9;file:///Users/xuwenyan/Downloads/study/Mysource/src/main/java/com/xwy/rmi/rpc/server/ProcessorHandler.java&#10;hell&#9;FILE&#9;file:///Users/xuwenyan/Downloads/study/Mysource/src/main/java/com/xwy/rmi/rpc/server/HelloImpl.java&#10;rpca&#9;FILE&#9;file:///Users/xuwenyan/Downloads/study/Mysource/src/main/java/com/xwy/rmi/rpc/anno/RpcAnnotation.java&#10;ser&#9;FILE&#9;file:///Users/xuwenyan/Downloads/study/Mysource/src/main/java/com/xwy/rmi/rpc/client/ServiceDiscoveryImpl.java&#10;DataSource1Config &#9;PSI&#9;JAVA://com.xwy.multipleDataSource.dataSource.DataSource1Config&#10;ExtDispatcherServlet&#9;FILE&#9;file:///Users/xuwenyan/Downloads/study/Mysource/src/main/java/com/xwy/springMVC/ext/ExtDispatcherServlet.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/xwy/MySpring" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/xwy/rmi/rpc/MyRpc/client" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\study\code\MySource\src\main\java\com\xwy\MySpring" />
-      <recent name="$PROJECT_DIR$/src/main/java/com/xwy/zkMaster" />
-      <recent name="$PROJECT_DIR$/src/main/resources" />
-      <recent name="$PROJECT_DIR$/src/main/java/com/xwy/redisTokenSession/session" />
-      <recent name="$PROJECT_DIR$/src/main/java/com/xwy/redisTokenSession/controller" />
+      <recent name="D:\study\code\MySource\src\main\java\com\xwy\rmi\rpc\MyRpc\client" />
+      <recent name="D:\study\code\MySource\src\main\java\com\xwy\rmi\rpc\MyRpc" />
+      <recent name="D:\study\code\MySource\src\main\resources\mySpring" />
+      <recent name="D:\study\code\MySource\src\main\java\com\xwy\MySpringAOP" />
+      <recent name="D:\study\code\MySource\src\main\java\com\xwy\orm" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.xwy.rmi.rpc.server" />
@@ -515,12 +546,26 @@
       <recent name="com.xwy.SpringXmlParse.utils" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ClientDemo">
+  <component name="RunManager" selected="Application.ClientDemo (1)">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
+    </configuration>
+    <configuration name="ClientDemo (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xwy.rmi.rpc.MyRpc.client.ClientDemo" />
+      <module name="Mysource" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xwy.rmi.rpc.MyRpc.client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="ClientDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.xwy.rmi.rpc.client.ClientDemo" />
@@ -529,20 +574,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.xwy.rmi.rpc.client.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DistributedLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.xwy.zkLock3.DistributedLock" />
-      <module name="Mysource" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.xwy.zkLock3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -579,26 +610,12 @@
       </method>
     </configuration>
     <configuration name="ServerDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.xwy.rmi.rpc.server.ServerDemo" />
+      <option name="MAIN_CLASS_NAME" value="com.xwy.rmi.rpc.MyRpc.server.ServerDemo" />
       <module name="Mysource" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.xwy.rmi.rpc.server.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test001 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.xwy.DataBaseConnectionPool.Test001" />
-      <module name="Mysource" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.xwy.DataBaseConnectionPool.*" />
+          <option name="PATTERN" value="com.xwy.rmi.rpc.MyRpc.server.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -612,13 +629,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -649,20 +668,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Test001 (1)" />
-      <item itemvalue="Application.ServerDemo" />
       <item itemvalue="Application.ClientDemo" />
-      <item itemvalue="Application.DistributedLock" />
       <item itemvalue="Application.LBServerDemo" />
       <item itemvalue="Application.LBServerDemo2" />
+      <item itemvalue="Application.ServerDemo (1)" />
+      <item itemvalue="Application.ClientDemo (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ClientDemo (1)" />
+        <item itemvalue="Application.ServerDemo (1)" />
         <item itemvalue="Application.ClientDemo" />
         <item itemvalue="Application.LBServerDemo2" />
         <item itemvalue="Application.LBServerDemo" />
-        <item itemvalue="Application.ServerDemo" />
-        <item itemvalue="Application.DistributedLock" />
       </list>
     </recent_temporary>
   </component>
@@ -697,7 +715,17 @@
       <workItem from="1571928402247" duration="20000" />
       <workItem from="1572787667854" duration="35000" />
       <workItem from="1573005947932" duration="29872000" />
-      <workItem from="1616585103686" duration="3852000" />
+      <workItem from="1616585103686" duration="4624000" />
+      <workItem from="1616598185646" duration="404000" />
+      <workItem from="1616658054115" duration="766000" />
+      <workItem from="1617194227048" duration="4967000" />
+      <workItem from="1618314469418" duration="3000" />
+      <workItem from="1624286500983" duration="1945000" />
+      <workItem from="1624450428688" duration="1613000" />
+      <workItem from="1624535412317" duration="5995000" />
+      <workItem from="1624671964888" duration="6215000" />
+      <workItem from="1624795013460" duration="322000" />
+      <workItem from="1625061041735" duration="1437000" />
     </task>
     <task id="LOCAL-00001" summary="提交之前的">
       <created>1573024707141</created>
@@ -713,7 +741,21 @@
       <option name="project" value="LOCAL" />
       <updated>1573037632308</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="测试">
+      <created>1616585266230</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1616585266230</updated>
+    </task>
+    <task id="LOCAL-00004" summary="实现 spring IOC">
+      <created>1616589209194</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1616589209194</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -789,7 +831,7 @@
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.History.Properties">
     <option name="COLUMN_ORDER">
@@ -806,34 +848,20 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="RECENTLY_FILTERED_USER_GROUPS">
-                <collection />
-              </option>
-              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-                <collection />
-              </option>
-              <option name="COLUMN_ORDER">
-                <list>
-                  <option value="0" />
-                  <option value="1" />
-                  <option value="2" />
-                  <option value="3" />
-                </list>
-              </option>
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="提交之前的" />
     <MESSAGE value="手写 rpc" />
-    <option name="LAST_COMMIT_MESSAGE" value="手写 rpc" />
+    <MESSAGE value="测试" />
+    <MESSAGE value="实现 spring IOC" />
+    <option name="LAST_COMMIT_MESSAGE" value="实现 spring IOC" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -841,79 +869,60 @@
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/xwy/SpringXmlParse/utils/ClassUtil.java</url>
           <line>76</line>
-          <properties />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/xwy/springboot/config/WebConfig.java</url>
           <line>25</line>
-          <properties />
           <option name="timeStamp" value="10" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/xwy/rmi/rpc/zk/RegisterCenterImpl.java</url>
           <line>26</line>
-          <properties />
           <option name="timeStamp" value="19" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/xwy/rmi/rpc/client/ServiceDiscoveryImpl.java</url>
           <line>38</line>
-          <properties />
           <option name="timeStamp" value="20" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/xwy/rmi/rpc/zk/RegisterCenterImpl.java</url>
           <line>23</line>
-          <properties />
           <option name="timeStamp" value="23" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/xwy/rmi/rpc/server/RpcServer.java</url>
           <line>72</line>
-          <properties />
           <option name="timeStamp" value="24" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/xwy/rmi/rpc/server/ProcessorHandler.java</url>
-          <line>32</line>
-          <properties />
-          <option name="timeStamp" value="26" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/xwy/rmi/rpc/server/RpcServer.java</url>
           <line>36</line>
-          <properties />
           <option name="timeStamp" value="27" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/xwy/rmi/rpc/client/loadbalance/RandomLoadBalance.java</url>
           <line>10</line>
-          <properties />
           <option name="timeStamp" value="29" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/xwy/rmi/rpc/client/loadbalance/RandomLoadBalance.java</url>
           <line>8</line>
-          <properties />
           <option name="timeStamp" value="30" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/xwy/rmi/rpc/client/ServiceDiscoveryImpl.java</url>
           <line>49</line>
-          <properties />
           <option name="timeStamp" value="32" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/xwy/rmi/rpc/client/loadbalance/AbstractLoadBalance.java</url>
           <line>11</line>
-          <properties />
           <option name="timeStamp" value="33" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="34" />
     </breakpoint-manager>
-    <watches-manager />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />

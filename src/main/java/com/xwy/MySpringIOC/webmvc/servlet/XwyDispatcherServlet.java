@@ -123,7 +123,6 @@ public class XwyDispatcherServlet extends HttpServlet {
                 Object proxy = context.getBean(beanName);
                 Object controller = XwyAopProxyUtils.getTargetObject(proxy);
                 Class<?> clazz = controller.getClass();
-                //但是不是所有的牛奶都叫特仑苏
                 if (!clazz.isAnnotationPresent(XwyController.class)) {
                     continue;
                 }
@@ -149,7 +148,6 @@ public class XwyDispatcherServlet extends HttpServlet {
                     System.out.println("Mapping: " + regex + " , " + method);
 
                 }
-
 
             }
         } catch (Exception e) {
@@ -184,7 +182,7 @@ public class XwyDispatcherServlet extends HttpServlet {
             }
 
             //接下来，我们处理非命名参数
-            //只处理Request和Response
+            //只处理 Request 和 Response
             Class<?>[] paramTypes = handlerMapping.getMethod().getParameterTypes();
             for (int i = 0; i < paramTypes.length; i++) {
                 Class<?> type = paramTypes[i];
@@ -193,7 +191,6 @@ public class XwyDispatcherServlet extends HttpServlet {
                     paramMapping.put(type.getName(), i);
                 }
             }
-
 
             this.handlerAdapters.put(handlerMapping, new XwyHandlerAdapter(paramMapping));
         }
@@ -253,7 +250,7 @@ public class XwyDispatcherServlet extends HttpServlet {
         //根据用户请求的URL来获得一个Handler
         XwyHandlerMapping handler = getHandler(req);
         if (handler == null) {
-            resp.getWriter().write("<font size='25' color='red'>404 Not Found</font><br/><font color='green'><i>Copyright@GupaoEDU</i></font>");
+            resp.getWriter().write("<font size='25' color='red'>404 Not Found</font><br/><font color='green'><i>Copyright@xwy</i></font>");
             return;
         }
 
@@ -306,7 +303,6 @@ public class XwyDispatcherServlet extends HttpServlet {
         if (this.handlerMappings.isEmpty()) {
             return null;
         }
-
 
         String url = req.getRequestURI();
         String contextPath = req.getContextPath();
