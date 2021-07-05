@@ -43,7 +43,7 @@ public class ProcessorHandler implements Runnable {
 
             // 反序列化远程传输对象RpcRequest
             RpcRequest request = (RpcRequest) inputStream.readObject();
-            Object result = invoke(request);
+            Object result = this.invoke(request);
 
             // 通过输出流将结果输出给客户端
             ObjectOutputStream objectOutputStream = new ObjectOutputStream(socket.getOutputStream());

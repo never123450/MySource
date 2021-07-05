@@ -46,7 +46,7 @@ public class RpcServer {
             RpcAnnotation annotation = service.getClass().getAnnotation(RpcAnnotation.class);
             String serviceName = annotation.value().getName();
             String version = annotation.version();
-            if (version != null && !version.equals("")) {
+            if (version != null && !"".equals(version)) {
                 serviceName = serviceName + "-" + version;
             }
             handlerMap.put(serviceName, service);//绑定服务接口名称对应的服务

@@ -58,12 +58,8 @@ public class ServiceDiscoveryImpl implements IServiceDiscovery {
 
     private void registerWatcher(String path) {
         PathChildrenCache childrenCache = new PathChildrenCache(curatorFramework, path, true);
-        PathChildrenCacheListener pathChildrenCacheListener = new PathChildrenCacheListener() {
-            @Override
-            public void childEvent(CuratorFramework curatorFramework, PathChildrenCacheEvent pathChildrenCacheEvent) throws Exception {
-                repos = curatorFramework.getChildren().forPath(path);
-            }
-        };
+        PathChildrenCacheListener pathChildrenCacheListener =
+                (curatorFramework, pathChildrenCacheEvent) -> repos = curatorFramework.getChildren().forPath(path);
         childrenCache.getListenable().addListener(pathChildrenCacheListener);
         try {
             childrenCache.start();
